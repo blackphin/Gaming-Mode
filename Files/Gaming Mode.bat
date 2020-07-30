@@ -18,6 +18,6 @@ taskkill /IM EpicGamesLauncher.exe /T /F
 start "" "C:\Program Files\Google\Drive\googledrivesync.exe"
 start "" "C:\Users\shiva\AppData\Local\Microsoft\OneDrive\OneDrive.exe"
 timeout 2
-wscript autokey.vbs
+wscript "D:\Program Files (x86)\Gaming-Mode\Files\autokey.vbs"
 :END
 Exit
