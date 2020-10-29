@@ -8,7 +8,7 @@ time.sleep(7)
 
 #OC CPU
 
-pyautogui.press("win")
+'''pyautogui.press("win")
 time.sleep(0.5)
 pyautogui.write(message="dragon center")
 time.sleep(0.5)
@@ -17,7 +17,7 @@ time.sleep(16)
 pyautogui.click(x=673, y=441)
 time.sleep(10)
 pyautogui.click(x=1671, y=112)
-time.sleep(1)
+time.sleep(1)'''
 
 #Change Mouse Profile
 
@@ -38,7 +38,7 @@ pyautogui.press("win")
 time.sleep(0.5)
 pyautogui.click(x=29, y=940)
 time.sleep(0.5)
-pyautogui.click(x=278, y=312)
+pyautogui.click(x=290, y=430)#x=278, y=312
 time.sleep(0.5)
 pyautogui.click(x=607, y=791)
 time.sleep(0.5)
@@ -51,7 +51,7 @@ time.sleep(0.5)
 
 #Hide Task bar
 
-pyautogui.click(x=303, y=443)
+pyautogui.click(x=1614, y=427)#x=303, y=443
 time.sleep(1)
 pyautogui.click(x=190, y=644)
 time.sleep(1)
