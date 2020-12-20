@@ -51,22 +51,22 @@ time.sleep(0.5)
 
 #Hide Task bar
 
-pyautogui.click(x=1614, y=427)#x=303, y=443
+'''pyautogui.click(x=1614, y=427)#x=303, y=443
 time.sleep(1)
 pyautogui.click(x=190, y=644)
 time.sleep(1)
 pyautogui.click(x=460, y=263)
 time.sleep(1)
-pyautogui.hotkey("alt","f4")
+pyautogui.hotkey("alt","f4")'''
 
 #Open CS:GO
 
 os.startfile("steam://rungameid/730")
-time.sleep(30)
+# time.sleep(30)
 
 #Change In-Game Resolution
 
-pyautogui.click(x=40,y=475)
+'''pyautogui.click(x=40,y=475)
 time.sleep(0.5)
 pyautogui.click(x=136,y=140)
 time.sleep(0.5)
@@ -74,11 +74,11 @@ pyautogui.click(x=1081,y=503)
 time.sleep(0.5)
 pyautogui.click(x=1078,y=589)
 time.sleep(0.5)
-pyautogui.click(x=1391,y=884)
+pyautogui.click(x=1391,y=884)'''
 
 #Change Game Mode to Competitive
 
-time.sleep(2)
+'''time.sleep(2)
 pyautogui.click(x=98,y=156)
 time.sleep(0.5)
-pyautogui.click(x=204, y=198)
+pyautogui.click(x=204, y=198)'''
